@@ -25,13 +25,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Sparsh Kandpal</title>
-  <link rel="stylesheet" href="styles.css"> <!-- Create a separate CSS file for styling -->
-  <style>
+  <link rel="stylesheet" href="styles.css"> <style>
     /* Add your CSS styles here */
   </style>
 </head>
 <body>
-  <!-- Navigation Bar -->
   <nav>
     <ul>
       <li><a href="#home">Home</a></li>
@@ -41,40 +39,47 @@
     </ul>
   </nav>
 
-  <!-- Main Content -->
   <div id="root">
-    <!-- Home Section -->
     <section id="home">
       <h1>Welcome to my website</h1>
-      <!-- Add any introductory content here -->
+      <p>I'm a software engineer with a passion for building innovative and user-friendly products. I have experience in a variety of programming languages and technologies, and I'm always eager to learn new things.</p>
     </section>
 
-    <!-- About Me Section -->
     <section id="about">
       <h2>About Me</h2>
-      <!-- Add your about me content here -->
+      <p>I'm currently working as a software engineer at Google AI, where I'm helping to develop large language models. I'm also passionate about open source software, and I contribute to a variety of open source projects.</p>
     </section>
 
-    <!-- Projects Section -->
     <section id="projects">
       <h2>Projects</h2>
-      <!-- Add your project cards or carousel here -->
+      <div class="project-card">
+        <h3>My Website</h3>
+        <p>This is my personal website, where I showcase my work and skills. I built it using HTML, CSS, and JavaScript.</p>
+        <a href="https://sparshkandpal.com">View Project</a>
+      </div>
+
+      <div class="project-card">
+        <h3>Bard</h3>
+        <p>Bard is a large language model from Google AI. I helped to develop Bard by training it on a massive dataset of text and code. Bard can generate text, translate languages, write different kinds of creative content, and answer your questions in an informative way.</p>
+        <a href="https://ai.googleblog.com/2023/01/lamda-language-model-for-dialogue.html">View Project</a>
+      </div>
     </section>
 
-    <!-- Contact Form -->
     <section id="contact">
       <h2>Contact Me</h2>
-      <!-- Add your contact form here -->
+      <form action="/contact" method="post">
+        <input type="name" name="name" placeholder="Your Name">
+        <input type="email" name="email" placeholder="Your Email">
+        <textarea name="message" placeholder="Your Message"></textarea>
+        <button type="submit">Send Message</button>
+      </form>
     </section>
   </div>
 
-  <!-- Social Media Icons -->
   <div class="social-icons">
     <a href="https://github.com/ksparsh443"><img src="github-icon.png" alt="GitHub"></a>
     <a href="https://twitter.com/SparshKandpal2"><img src="twitter-icon.png" alt="Twitter"></a>
   </div>
 
-  <!-- Add your JavaScript for interactivity here -->
-  <script src="script.js"></script> <!-- Create a separate JavaScript file -->
-</body>
+  <script src="script.js"></script> </body>
 </html>
